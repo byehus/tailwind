@@ -1,0 +1,24 @@
+{
+  "name": "Tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byehus/tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byehus/tailwind/issues"
+  },
+  "homepage": "https://github.com/byehus/tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.3"
+  }
+}
